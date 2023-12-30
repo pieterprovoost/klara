@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50315D52B4033B1002D565F /* klaraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50315D42B4033B1002D565F /* klaraApp.swift */; };
+		F50315D72B4033B1002D565F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50315D62B4033B1002D565F /* ContentView.swift */; };
+		F50315D92B4033B2002D565F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50315D82B4033B2002D565F /* Assets.xcassets */; };
+		F50315DC2B4033B2002D565F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50315DB2B4033B2002D565F /* Preview Assets.xcassets */; };
+		F50315E72B4033B2002D565F /* klaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50315E62B4033B2002D565F /* klaraTests.swift */; };
+		F50315F12B4033B2002D565F /* klaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50315F02B4033B2002D565F /* klaraUITests.swift */; };
+		F50315F32B4033B2002D565F /* klaraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50315F22B4033B2002D565F /* klaraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F50315E32B4033B2002D565F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50315C92B4033B1002D565F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50315D02B4033B1002D565F;
+			remoteInfo = klara;
+		};
+		F50315ED2B4033B2002D565F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50315C92B4033B1002D565F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50315D02B4033B1002D565F;
+			remoteInfo = klara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F50315D12B4033B1002D565F /* klara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = klara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50315D42B4033B1002D565F /* klaraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klaraApp.swift; sourceTree = "<group>"; };
+		F50315D62B4033B1002D565F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F50315D82B4033B2002D565F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F50315DB2B4033B2002D565F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F50315DD2B4033B2002D565F /* klara.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = klara.entitlements; sourceTree = "<group>"; };
+		F50315E22B4033B2002D565F /* klaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50315E62B4033B2002D565F /* klaraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klaraTests.swift; sourceTree = "<group>"; };
+		F50315EC2B4033B2002D565F /* klaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = klaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50315F02B4033B2002D565F /* klaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klaraUITests.swift; sourceTree = "<group>"; };
+		F50315F22B4033B2002D565F /* klaraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = klaraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F50315CE2B4033B1002D565F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50315DF2B4033B2002D565F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50315E92B4033B2002D565F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50315C82B4033B1002D565F = {
+			isa = PBXGroup;
+			children = (
+				F50315D32B4033B1002D565F /* klara */,
+				F50315E52B4033B2002D565F /* klaraTests */,
+				F50315EF2B4033B2002D565F /* klaraUITests */,
+				F50315D22B4033B1002D565F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50315D22B4033B1002D565F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50315D12B4033B1002D565F /* klara.app */,
+				F50315E22B4033B2002D565F /* klaraTests.xctest */,
+				F50315EC2B4033B2002D565F /* klaraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50315D32B4033B1002D565F /* klara */ = {
+			isa = PBXGroup;
+			children = (
+				F50315D42B4033B1002D565F /* klaraApp.swift */,
+				F50315D62B4033B1002D565F /* ContentView.swift */,
+				F50315D82B4033B2002D565F /* Assets.xcassets */,
+				F50315DD2B4033B2002D565F /* klara.entitlements */,
+				F50315DA2B4033B2002D565F /* Preview Content */,
+			);
+			path = klara;
+			sourceTree = "<group>";
+		};
+		F50315DA2B4033B2002D565F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F50315DB2B4033B2002D565F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F50315E52B4033B2002D565F /* klaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				F50315E62B4033B2002D565F /* klaraTests.swift */,
+			);
+			path = klaraTests;
+			sourceTree = "<group>";
+		};
+		F50315EF2B4033B2002D565F /* klaraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F50315F02B4033B2002D565F /* klaraUITests.swift */,
+				F50315F22B4033B2002D565F /* klaraUITestsLaunchTests.swift */,
+			);
+			path = klaraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F50315D02B4033B1002D565F /* klara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50315F62B4033B2002D565F /* Build configuration list for PBXNativeTarget "klara" */;
+			buildPhases = (
+				F50315CD2B4033B1002D565F /* Sources */,
+				F50315CE2B4033B1002D565F /* Frameworks */,
+				F50315CF2B4033B1002D565F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = klara;
+			productName = klara;
+			productReference = F50315D12B4033B1002D565F /* klara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F50315E12B4033B2002D565F /* klaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50315F92B4033B2002D565F /* Build configuration list for PBXNativeTarget "klaraTests" */;
+			buildPhases = (
+				F50315DE2B4033B2002D565F /* Sources */,
+				F50315DF2B4033B2002D565F /* Frameworks */,
+				F50315E02B4033B2002D565F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50315E42B4033B2002D565F /* PBXTargetDependency */,
+			);
+			name = klaraTests;
+			productName = klaraTests;
+			productReference = F50315E22B4033B2002D565F /* klaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F50315EB2B4033B2002D565F /* klaraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50315FC2B4033B2002D565F /* Build configuration list for PBXNativeTarget "klaraUITests" */;
+			buildPhases = (
+				F50315E82B4033B2002D565F /* Sources */,
+				F50315E92B4033B2002D565F /* Frameworks */,
+				F50315EA2B4033B2002D565F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50315EE2B4033B2002D565F /* PBXTargetDependency */,
+			);
+			name = klaraUITests;
+			productName = klaraUITests;
+			productReference = F50315EC2B4033B2002D565F /* klaraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50315C92B4033B1002D565F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					F50315D02B4033B1002D565F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					F50315E12B4033B2002D565F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = F50315D02B4033B1002D565F;
+					};
+					F50315EB2B4033B2002D565F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = F50315D02B4033B1002D565F;
+					};
+				};
+			};
+			buildConfigurationList = F50315CC2B4033B1002D565F /* Build configuration list for PBXProject "klara" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F50315C82B4033B1002D565F;
+			productRefGroup = F50315D22B4033B1002D565F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50315D02B4033B1002D565F /* klara */,
+				F50315E12B4033B2002D565F /* klaraTests */,
+				F50315EB2B4033B2002D565F /* klaraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F50315CF2B4033B1002D565F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50315DC2B4033B2002D565F /* Preview Assets.xcassets in Resources */,
+				F50315D92B4033B2002D565F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50315E02B4033B2002D565F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50315EA2B4033B2002D565F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F50315CD2B4033B1002D565F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50315D72B4033B1002D565F /* ContentView.swift in Sources */,
+				F50315D52B4033B1002D565F /* klaraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50315DE2B4033B2002D565F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50315E72B4033B2002D565F /* klaraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50315E82B4033B2002D565F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50315F32B4033B2002D565F /* klaraUITestsLaunchTests.swift in Sources */,
+				F50315F12B4033B2002D565F /* klaraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F50315E42B4033B2002D565F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50315D02B4033B1002D565F /* klara */;
+			targetProxy = F50315E32B4033B2002D565F /* PBXContainerItemProxy */;
+		};
+		F50315EE2B4033B2002D565F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50315D02B4033B1002D565F /* klara */;
+			targetProxy = F50315ED2B4033B2002D565F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F50315F42B4033B2002D565F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F50315F52B4033B2002D565F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F50315F72B4033B2002D565F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = klara/klara.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"klara/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BGY2JG97X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = klara/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.pieterprovoost.klara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F50315F82B4033B2002D565F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = klara/klara.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"klara/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BGY2JG97X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = klara/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.pieterprovoost.klara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F50315FA2B4033B2002D565F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.pieterprovoost.klaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klara.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/klara";
+			};
+			name = Debug;
+		};
+		F50315FB2B4033B2002D565F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.pieterprovoost.klaraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/klara.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/klara";
+			};
+			name = Release;
+		};
+		F50315FD2B4033B2002D565F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.pieterprovoost.klaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = klara;
+			};
+			name = Debug;
+		};
+		F50315FE2B4033B2002D565F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.pieterprovoost.klaraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = klara;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50315CC2B4033B1002D565F /* Build configuration list for PBXProject "klara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50315F42B4033B2002D565F /* Debug */,
+				F50315F52B4033B2002D565F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50315F62B4033B2002D565F /* Build configuration list for PBXNativeTarget "klara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50315F72B4033B2002D565F /* Debug */,
+				F50315F82B4033B2002D565F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50315F92B4033B2002D565F /* Build configuration list for PBXNativeTarget "klaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50315FA2B4033B2002D565F /* Debug */,
+				F50315FB2B4033B2002D565F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50315FC2B4033B2002D565F /* Build configuration list for PBXNativeTarget "klaraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50315FD2B4033B2002D565F /* Debug */,
+				F50315FE2B4033B2002D565F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50315C92B4033B1002D565F /* Project object */;
+}
