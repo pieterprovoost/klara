@@ -3,7 +3,7 @@ import AVKit
 
 struct AppMenu: View {
 
-    @State private var isPlaying = false
+    @Binding public var isPlaying: Bool
     @State var player: AVPlayer?
 
     let radioURL = URL(string: "http://icecast.vrtcdn.be/klara-high.mp3")!
@@ -35,9 +35,14 @@ struct AppMenu: View {
 
 @main
 struct klaraApp: App {
+
+    @State public var isPlaying = false
+
     var body: some Scene {
-        MenuBarExtra("UtilityApp", systemImage: "music.note") {
-            AppMenu()
+        MenuBarExtra {
+            AppMenu(isPlaying: $isPlaying)
+        } label: {
+            isPlaying ? Image(systemName: "hifispeaker.fill") : Image(systemName: "hifispeaker")
         }
     }
 }
