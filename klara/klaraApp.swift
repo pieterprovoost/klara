@@ -33,7 +33,7 @@ extension RadioStreamer: AVPlayerItemMetadataOutputPushDelegate {
 
 struct AppMenu: View {
     @Binding public var isPlaying: Bool
-    @StateObject var streamer: RadioStreamer = RadioStreamer()
+    @StateObject var streamer = RadioStreamer()
 
     func quitApp() {
         NSApplication.shared.terminate(self)
@@ -41,16 +41,18 @@ struct AppMenu: View {
 
     func togglePlay() {
         if isPlaying {
-            self.streamer.player?.pause()
+            streamer.player?.pause()
         } else {
-            self.streamer.player?.play()
+            streamer.player?.play()
         }
         isPlaying.toggle()
     }
     
     var body: some View {
         VStack {
-            Text(self.streamer.itemTitle)
+            Text(streamer.itemTitle).onReceive(streamer.$itemTitle) { updatedTitle in
+                print(updatedTitle)
+            }
             Button(action: togglePlay, label: { Text(isPlaying ? "Pause" : "Play") })
             Button(action: quitApp, label: { Text("Quit") })
         }
@@ -66,6 +68,6 @@ struct klaraApp: App {
             AppMenu(isPlaying: $isPlaying)
         } label: {
             isPlaying ? Image(systemName: "hifispeaker.fill") : Image(systemName: "hifispeaker")
-        }
+        }.menuBarExtraStyle(.menu)
     }
 }
